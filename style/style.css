@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('http://fonts.cdnfonts.com/css/black-bison');
+body{
+    overflow: hidden;
+} 
+
+
+.bg-custom{
+     background-color:#FFF8E3 ;
+    height: 80px;
+     
+}
+.ferrero{
+    position: relative;
+    margin-left:40%;
+    transition: 0.5s;
+
+}
+.ferrero:hover{
+    transform:scale(1.2);
+  
+}
+/* .navbar-nav-custom {
+
+    width: 100%;
+    
+    justify-content: end;
+    padding-right: 20px;
+
+} */
+.btn-custom{
+    border: 1px solid rgba(128, 128, 128, 0.39);
+    margin-right: 20px;
+    background-color: #FFF8E3;
+    border-radius: 5px;
+    height: 40px;
+    width: 130px;
+    transition: .3s;
+}
+.force .btn-custom:hover{
+   transform: scale(1.04);
+   box-shadow: .02em .01em 2em .1em #4820062d;
+
+}
+.brand-custom img{
+    margin-left: 20px;
+    height: 30px;
+}
+
+.d-flex .btn-custom{
+    border: 1px solid rgba(128, 128, 128, 0.39);
+}
+hr{
+    margin: 0 30px !important;
+    opacity: 0.4 !important; ;
+    border-width:0;
+    color:  #482006!important;
+    background-color:gray
+}
+/* main{
+    display: flex;
+    width: 100%;
+} */
+.principal{
+    
+    background-color:#FFF8E3 ;
+    height: 95vh;
+
+}
+.container-custom{
+    padding: 0  0!important;
+    background-color: #FAB303;
+    height: 95vh;
+    margin: 0 !important;
+}
+.col-6-custom{
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.principal .title{
+    position: absolute;
+    
+    padding-left: 190px;
+   padding-top:12px;
+   
+   
+}
+.title img{
+    margin-top: 10px;
+}
+
+.principal .title p{
+    position: absolute;
+    padding-top: 20px;
+    margin-bottom: 10px;
+
+    font-family: 'Ink Free';
+    font-style: normal;
+
+    font-size: 29px;
+
+
+
+    letter-spacing: 0.02em;
+
+    color: #482006;
+
+
+}
+.foda-se{
+    position: absolute;
+    margin-left: 940px;
+    width: 300px;
+   
+}
+
+
+.principal .text{
+    position:absolute;
+    width: 435px;
+    height: 186px;
+    margin-left: 870px;
+    padding-top: 100px;
+    font-family: 'Ubuntu';
+    text-align: center;
+        color: #4820069c;
+      
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+.left .nut{
+
+    width: 900px;
+    padding-top: 110px;
+    z-index: 3;
+
+}
+button img{
+    margin-top: 2px;
+    color: white;
+    padding-right: 5px;
+    
+    /* background-color: red; */
+}
+.left button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: 480px;
+    color: white;
+    
+background-color: #482006;
+width: 300px;
+height: 59px;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+
+text-align: center;
+letter-spacing: 0.06em;
+
+border: none;
+border-radius: 5px;
+transition: .3s;
+}
+button:hover{
+    transform: scale(1.05);
+}
+.porcentagem{
+    background-color:#FFF8E3 ;
+    width: 100%;
+    height: 100vh;
+    padding-left: 400px;
+    padding-top: 100px;
+}
+
+.medidas{
+    
+    width: 350px;
+    height: 415px;
+    padding:0  20px;
+    border: #4820068f solid 1px;
+}
+.organic{
+    top: 120px;
+    right: 160px;
+    position: absolute;
+}
+.medidas p{
+    padding-top: 20px;
+    margin-bottom: 1px;
+    color: #B48C81;
+}
+.medidas h6{
+    font-size: 60px;
+    line-height: 90%;
+}
+.example{
+
+    width: 100%
+   
+
+}
+.example p{
+    text-align: center;
+    font-family: 'Ink Free';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    padding-top: 30px;
+    padding-right: 220px;
+  
+    letter-spacing: -0.02em;
+
+    color: #482006;
+    margin-right:100px;
+   
+}
+.example h1{
+    margin-right:300px;
+    font-family: 'Bison';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 90%;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #fab403dc;
+
+  
+}
